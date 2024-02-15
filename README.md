@@ -16,3 +16,33 @@ download section
 main.py, it should look like this ~~~python ./main.py~~~ or similar.
 7. If you do not know how to write the file path, I recommend opening the terminal,
 write python and drag the main.py file into the terminal window.
+
+---
+
+### Challenge:
+An orderly trail of ants is marching across the park picnic area. It looks something like this:
+..ant..ant.ant...ant.ant..ant.ant....ant..ant.ant.ant...ant..
+But suddenly there is a rumour that a dropped chicken sandwich has been spotted on the ground ahead. The ants surge forward! Oh No, it's an ant stampede!!
+Some of the slower ants are trampled, and their poor little ant bodies are broken up into scattered bits.
+The resulting carnage looks like this:
+...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t Can you find how many ants have died?
+
+### general scenarios:
+1. We must understand that if we have n points[. , ... , ..] is an indication that there is a space between the ants.
+2. When you find the word “ant” it means that an ant is in that space.
+3. Since we already know that “ant” is an ant, we could take as a parameter that “an” is the body of the ant and it could be divided only into “a” or “n” and then
+it would be followed by a period or some letter.
+4. So since we have already identified that “an” is the body, we could take as a
+parameter that “t” is the head of the ant and in any case that “t” is not accompanied by the body, that is, “an” then The ant is dead.
+
+### dead ant scenarios:
+1. the head “t” is next to a point
+2. “t”meets“a”
+3. “t” is found next to another “t”
+
+### live ant scenarios:
+1. The word “ant” is complete and there are periods in front or behind it.
+2. The word “ant” is complete and together with other letters in front of or behind
+it, such as “aant”, “anant”, “tant”, “anta”, antan” or “antt”
+3. In some cases you could find live ants without separation between them, so it
+would look like this: "antant"
