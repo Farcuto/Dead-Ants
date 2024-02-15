@@ -1,5 +1,11 @@
 # Dead-Ants
 
+---
+
+[Lista de reproduccion de youtube Dead Ants](https://www.youtube.com/playlist?list=PLxFn4mrvRfPWotozt4CrEjQ70KfkdD1Jh)
+
+---
+
 This program is designed to identify a text string in which, by already established rules, it is determined if the ant is alive. If you want to obtain more information, visit the docs folder and open the file called “IDS347L Dead Ants Scenarios”.
 The program has a pre-established sequence of positions of the ants which are saved in a text string in a variable called **“string”**, if you want to change the sequence you only have to modify the variable **“string”**.
 
